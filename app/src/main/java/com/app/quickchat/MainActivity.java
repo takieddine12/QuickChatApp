@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
         }
         webView.getSettings().setJavaScriptEnabled(true);
         webView.setWebViewClient(new MyWebViewClient());
-        webView.loadUrl("https://app.quickchat.ai/6q92znlso1/");
+        webView.loadUrl("");
     }
 
     private  class MyWebViewClient extends WebViewClient {
